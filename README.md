@@ -21,7 +21,7 @@ A responsive web-based music player application designed to provide a seamless l
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/music-player-app.git
+    git clone https://github.com/usmana5809/music-player-app.git
     ```
 
 2. Navigate to the project directory:
