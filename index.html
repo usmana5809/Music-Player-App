@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="song-info">
+            <div class="album-art-container" id="album-art-container">
+                <img id="album-art" src="assets/images/album-art.png" alt="Album Art">
+            </div>
+            <div class="song-details">
+                <span id="song-title">Song Title</span>
+                <div class="time-details">
+                    <span id="current-time">00:00</span>
+                    <span id="remaining-time">-00:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <input type="range" id="progress-bar" value="0" step="1" disabled>
+        </div>
+        <div class="player-controls">
+            <button id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+                </svg>
+            </button>
+            <button id="play-pause">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36px" height="36px">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+            </button>
+            <button id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M6 18l8.5-6L6 6v12zm3.5-6l5.5 4-5.5 4V12z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
